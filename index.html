@@ -17,6 +17,42 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <!-- MOBILE HEADER -->
+      <header class="mob_header">
+        <nav class="mob_header_nav">
+          <figure class="mob_header_logo">
+            <img src="./images/logo.svg" alt="" />
+          </figure>
+          <img
+            id="hamburger"
+            onclick="toggle()"
+            class="mob_header_hamburger"
+            src="./images/icon-hamburger.svg"
+            alt=""
+          />
+        </nav>
+      </header>
+      <!-- MOBILE HEADER ENDS -->
+      <h1 class="main_title">We are creatives</h1>
+      <figure class="main_arrow">
+        <img src="./images/icon-arrow-down.svg" alt="" />
+      </figure>
+      <div class="mob_menu hide" id="mob_menu">
+        <div class="triangle"></div>
+        <div class="mob_menu_list_container">
+          <ul class="mob_menu_list">
+            <li class="list_item">About</li>
+            <li class="list_item">Services</li>
+            <li class="list_item">Project</li>
+            <li class="list_item last_item">Contact</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="scripts.js"></script>
 </html>
