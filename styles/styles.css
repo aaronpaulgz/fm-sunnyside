@@ -84,7 +84,6 @@
   width: 100%;
   padding: 16px 0;
   font-family: var(--font--secondary);
-  color: var(--very-dark-grayish-blue);
 }
 
 .last_item {
@@ -94,9 +93,17 @@
   font-family: var(--font-primary);
   text-transform: uppercase;
   margin: 12px 0 12px 0;
-  color: var(--very-dark-desaturated-blue);
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.list_item a {
+  text-decoration: none;
+  color: var(--very-dark-grayish-blue);
+}
+
+.last_item a {
+  color: var(--very-dark-desaturated-blue);
 }
 
 .triangle {
