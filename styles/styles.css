@@ -173,3 +173,37 @@
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
+
+.services {
+}
+
+.service {
+}
+
+.service_container {
+  display: flex;
+  align-items: flex-end;
+  min-height: 520px;
+  padding: 48px 24px;
+  text-align: center;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cherry {
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  color: var(--dark-desaturated-cyan-text);
+}
+.orange {
+  background-image: url(../images/mobile/image-photography.jpg);
+  color: var(--dark-blue-photo-text);
+}
+.service_title {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  margin: 0 0 32px 0;
+}
+.service_text {
+  font-family: var(--font--secondary);
+}
