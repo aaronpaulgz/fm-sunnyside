@@ -252,3 +252,29 @@
   font-size: 0.8rem;
   color: var(--grayish-blue);
 }
+
+.figures {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.figure {
+  height: 200px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.milk {
+  background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+}
+.plate {
+  background-image: url(../images/mobile/image-gallery-orange.jpg);
+}
+.ice_cream {
+  background-image: url(../images/mobile/image-gallery-cone.jpg);
+}
+.sugar {
+  background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+}
