@@ -1,5 +1,5 @@
 .header {
-  margin: 24px 32px;
+  padding: 24px 32px;
 }
 
 .main {
@@ -16,11 +16,11 @@
 }
 
 .description_img {
-  min-height: 520px;
+  min-height: 600px;
 }
 
 .description {
-  padding: 120px;
+  padding: 160px 120px;
 }
 
 .description_title {
@@ -42,4 +42,58 @@
 
 .description_cta a {
   font-size: 0.9rem;
+}
+
+.egg {
+  background-image: url(../images/desktop/image-transform.jpg);
+}
+
+.cup {
+  background-image: url(../images/desktop/image-stand-out.jpg);
+}
+
+.service_container {
+  min-height: 600px;
+  background-size: cover;
+  background-position: 0px 0px;
+  text-align: center;
+}
+
+.service {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.service_title {
+  font-size: 2.4rem;
+}
+
+.cherry {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+
+.orange {
+  background-image: url(../images/desktop/image-photography.jpg);
+}
+
+.testimonials_title {
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+}
+
+.testimonials_container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.figures {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.figure {
+  height: 400px;
 }
