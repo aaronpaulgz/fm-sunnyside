@@ -84,3 +84,15 @@
   line-height: 1.2rem;
   font-size: 0.8rem;
 }
+
+.services {
+  display: flex;
+}
+
+.service_container {
+  min-height: 384px;
+  width: 50%;
+  background-position: 0px -120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
