@@ -1,0 +1,45 @@
+.header {
+  margin: 24px 32px;
+}
+
+.main {
+  background-image: url(../images/desktop/image-header.jpg);
+}
+
+.main_title {
+  max-width: 920px;
+  font-size: 2.6rem;
+}
+
+.main_arrow {
+  margin: 60px auto 0;
+}
+
+.description_img {
+  min-height: 520px;
+}
+
+.description {
+  padding: 120px;
+}
+
+.description_title {
+  max-width: 420px;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.description_text {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  max-width: 400px;
+  margin: 32px 0 0 0;
+}
+
+.description_cta {
+  margin: 32px 0 0 0;
+}
+
+.description_cta a {
+  font-size: 0.9rem;
+}
